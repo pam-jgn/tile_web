@@ -278,4 +278,63 @@ aside p{
     .post-title, .post-cat{
         margin-left: 80px;
     }
+
+    .menu-content{
+        margin-top: 20%;
+    }
+
+    .big-box{
+        grid-column: auto;
+        grid-row: auto;
+    }
+
+    .big-box img{
+        height: 100%;
+    }
+}
+
+#menu{
+    background-image: url(images/パイ2.jpg);
+    min-height: 100vh;
+}
+.menu-content{
+    max-width: 560px;
+    margin-top: 10%;
+}
+
+.menu-content .page-title{
+    text-align: center;
+}
+
+.menu-content p{
+    font-size: 1.125rem;
+    margin: 10px 0 0;
+    color: #fff;
+}
+
+.grid{
+    display: grid;
+    grid-gap: 26px;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    margin-top: 6%;
+    margin-bottom: 50px;
+}
+
+.big-box{
+    grid-column: 1/3;
+    grid-row: 1/3;
+}
+
+.big-box img{
+    height: 93%;
+    width: 100%;
+    object-fit: cover;
+}
+
+#menu a{
+    color: #000000;
+}
+
+#menu a:hover {
+    color: #0090aa;
 }
