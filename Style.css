@@ -294,7 +294,7 @@ aside p{
 }
 
 #menu{
-    background-image: url(images/パイ2.jpg);
+    background-image: url(images/パイ4.jpg);
     min-height: 100vh;
 }
 .menu-content{
@@ -309,7 +309,7 @@ aside p{
 .menu-content p{
     font-size: 1.125rem;
     margin: 10px 0 0;
-    color: #fff;
+    color: #000000;
 }
 
 .grid{
